@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "nexus:block/nexus_tree_log_side",
+    "particle": "nexus:block/nexus_tree_log_side"
+  },
+  "render_type": "solid"
+}

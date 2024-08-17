@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nexus:block/youtube-2006",
+    "up": "nexus:block/youtube-2006",
+    "north": "nexus:block/oip_12",
+    "east": "nexus:block/youtube-2006",
+    "south": "nexus:block/youtube-2006",
+    "west": "nexus:block/youtube-2006",
+    "particle": "nexus:block/youtube-2006"
+  },
+  "render_type": "cutout_mipped"
+}

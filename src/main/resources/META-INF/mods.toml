@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="Not specified"
+
+[[mods]]
+modId="nexus"
+version="1.0.4"
+displayName="§k NEXUS"
+displayURL="https://github.com/ff6f8d68/nexusMC"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="ff6f8d68, Glitchy_404"
+description="was intended to be an MMO but has been discontinued"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.nexus]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.4.223,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.nexus]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.nexus]]
+    modId="geckolib"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.nexus]]
+    modId="particlepresets"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

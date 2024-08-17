@@ -1,0 +1,28 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:Nexuscore"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.IRON_NUGGET"
+    },
+    "smithingInputTemplateStack": {
+      "value": "Blocks.IRON_BLOCK"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Electrolyzedblock"
+    },
+    "name": "ceb",
+    "namespace": "mod"
+  }
+}

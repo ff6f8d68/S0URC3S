@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "nexus:block/nexus_tree_planks",
+    "top": "nexus:block/nexus_tree_planks",
+    "side": "nexus:block/nexus_tree_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,18 @@
+{
+  "nexus_rift": {
+    "sounds": [
+      {
+        "name": "nexus:electricity_spark_sound_effects_hq_tuberipper.cc",
+        "stream": false
+      }
+    ]
+  },
+  "warp": {
+    "sounds": [
+      {
+        "name": "nexus:time_warp_sound_effect",
+        "stream": false
+      }
+    ]
+  }
+}

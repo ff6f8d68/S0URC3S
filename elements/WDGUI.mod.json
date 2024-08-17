@@ -1,0 +1,70 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "x",
+          "name": "xvar",
+          "width": 120,
+          "height": 20,
+          "x": 150,
+          "y": 62
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "y",
+          "name": "yvar",
+          "width": 120,
+          "height": 20,
+          "x": 150,
+          "y": 98
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "z",
+          "name": "zvar",
+          "width": 120,
+          "height": 20,
+          "x": 150,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_warp",
+          "text": "warp",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Obc"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 186,
+          "y": 170
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

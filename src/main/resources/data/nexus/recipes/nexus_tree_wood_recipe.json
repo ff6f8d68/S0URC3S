@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "nexus:nexus_tree_log"
+    }
+  },
+  "result": {
+    "item": "nexus:nexus_tree_wood",
+    "count": 3
+  }
+}

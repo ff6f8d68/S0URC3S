@@ -1,0 +1,216 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 246,
+    "height": 202,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_run",
+          "text": {
+            "fixedValue": "run://"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 183
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "command",
+          "width": 120,
+          "height": 20,
+          "x": 168,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_old1",
+          "text": {
+            "fixedValue": "",
+            "name": "Old1"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_old2",
+          "text": {
+            "fixedValue": "",
+            "name": "Old2"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_old3",
+          "text": {
+            "fixedValue": "old3",
+            "name": "Old3"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_old4",
+          "text": {
+            "fixedValue": "old4",
+            "name": "Old4"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_old5",
+          "text": {
+            "fixedValue": "old5",
+            "name": "Old5"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_old6",
+          "text": {
+            "fixedValue": "old6",
+            "name": "Old6"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_old7",
+          "text": {
+            "fixedValue": "old7",
+            "name": "Old7"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_old8",
+          "text": {
+            "fixedValue": "old8",
+            "name": "Old8"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 47
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_run",
+          "text": "run",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Buttonclick"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 290,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_tcurser",
+          "text": {
+            "fixedValue": "",
+            "name": "Tcurser"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 96,
+          "y": 24
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ddd.png",
+          "use1Xscale": false,
+          "x": 91,
+          "y": 19
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

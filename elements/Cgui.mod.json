@@ -1,0 +1,54 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_send",
+          "text": "send",
+          "isUndecorated": false,
+          "width": 46,
+          "height": 20,
+          "x": 127,
+          "y": 215
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "message",
+          "name": "message",
+          "width": 120,
+          "height": 20,
+          "x": 4,
+          "y": 215
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "output-onlinepngtools-5.png",
+          "use1Xscale": true,
+          "x": 1,
+          "y": 0
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

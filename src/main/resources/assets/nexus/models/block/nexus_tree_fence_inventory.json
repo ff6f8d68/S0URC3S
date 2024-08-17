@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "nexus:block/nexus_tree_planks",
+    "particle": "nexus:block/nexus_tree_planks"
+  },
+  "render_type": "solid"
+}

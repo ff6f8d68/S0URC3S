@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "nexus:block/very_dark_oak_pressure_plate"
+    },
+    "powered=true": {
+      "model": "nexus:block/very_dark_oak_pressure_plate_down"
+    }
+  }
+}

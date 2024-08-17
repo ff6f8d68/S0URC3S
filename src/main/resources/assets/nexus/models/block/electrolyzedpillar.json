@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nexus:block/infinitum_column_top",
+    "up": "nexus:block/infinitum_column_top",
+    "north": "nexus:block/infinitum_column",
+    "east": "nexus:block/infinitum_column",
+    "south": "nexus:block/infinitum_column",
+    "west": "nexus:block/infinitum_column",
+    "particle": "nexus:block/infinitum_column_top"
+  },
+  "render_type": "solid"
+}

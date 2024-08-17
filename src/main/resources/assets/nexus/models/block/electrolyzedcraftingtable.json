@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nexus:block/infinitum_column_top",
+    "up": "nexus:block/infinicrafter_top",
+    "north": "nexus:block/infinicrafter_side",
+    "east": "nexus:block/infinicrafter_side",
+    "south": "nexus:block/infinicrafter_side",
+    "west": "nexus:block/infinicrafter_side",
+    "particle": "nexus:block/infinitum_column_top"
+  },
+  "render_type": "solid"
+}

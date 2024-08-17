@@ -1,0 +1,7 @@
+{
+  "parent": "nexus:custom/warper",
+  "textures": {
+    "1": "nexus:block/warper",
+    "particle": "nexus:item/nexustabicon"
+  }
+}

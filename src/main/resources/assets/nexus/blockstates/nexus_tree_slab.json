@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nexus:block/nexus_tree_slab"
+    },
+    "type=top": {
+      "model": "nexus:block/nexus_tree_slab_top"
+    },
+    "type=double": {
+      "model": "nexus:block/nexus_tree_slab_full"
+    }
+  }
+}

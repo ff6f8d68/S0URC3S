@@ -1,0 +1,105 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "dirt_background_be1.png",
+          "use1Xscale": true,
+          "x": -19,
+          "y": -18
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_connect",
+          "text": {
+            "fixedValue": "connect"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 186,
+          "y": 62
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "server IP (only when using custom server)",
+          "name": "serverip",
+          "width": 120,
+          "height": 20,
+          "x": 144,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_connect_to_custom_server",
+          "text": "connect",
+          "isUndecorated": false,
+          "width": 150,
+          "height": 20,
+          "x": 129,
+          "y": 136
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "ctcs",
+          "text": "connect to custom server?",
+          "x": 121,
+          "y": 105
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_host_this_world_as_server",
+          "text": "host this world as server",
+          "isUndecorated": false,
+          "width": 155,
+          "height": 20,
+          "x": 127,
+          "y": 169
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_server_ip_of_your_world",
+          "text": {
+            "fixedValue": "server IP of your world: "
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 138,
+          "y": 193
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

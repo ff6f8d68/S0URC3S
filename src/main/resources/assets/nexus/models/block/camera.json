@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nexus:block/sides",
+    "up": "nexus:block/sides",
+    "north": "nexus:block/camera",
+    "east": "nexus:block/sides",
+    "south": "nexus:block/sides",
+    "west": "nexus:block/sides",
+    "particle": "nexus:block/sides"
+  },
+  "render_type": "translucent"
+}

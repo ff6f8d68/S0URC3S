@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nexus:custom/moonlightprojector_particle"
+    }
+  }
+}

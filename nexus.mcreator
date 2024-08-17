@@ -1,0 +1,3213 @@
+{
+  "mod_elements": [
+    {
+      "name": "Nexus",
+      "type": "tab",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Nexusrift",
+      "type": "animatedentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexusrift",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/neoforge/biome_modifier/nexusrift_biome_modifier.json",
+          "src/main/java/net/mcreator/nexusmc/entity/NexusriftEntity.java",
+          "src/main/java/net/mcreator/nexusmc/entity/model/NexusriftModel.java",
+          "src/main/java/net/mcreator/nexusmc/entity/layer/NexusriftLayer.java",
+          "src/main/java/net/mcreator/nexusmc/client/renderer/NexusriftRenderer.java",
+          "src/main/resources/assets/nexus/models/item/nexusrift_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Nexustabicon",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexustabicon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/item/NexustabiconItem.java",
+          "src/main/resources/assets/nexus/models/item/nexustabicon.json"
+        ]
+      }
+    },
+    {
+      "name": "CTSGUI",
+      "type": "gui",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ctsgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/world/inventory/CTSGUIMenu.java",
+          "src/main/java/net/mcreator/nexusmc/client/gui/CTSGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "NRCTS",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nrcts",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/NRCTSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeWood",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/loot_tables/blocks/nexus_tree_wood.json",
+          "src/main/resources/assets/nexus/models/item/nexus_tree_wood.json",
+          "src/main/java/net/mcreator/nexusmc/block/NEXUS_treeWoodBlock.java",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_wood.json",
+          "src/main/resources/assets/nexus/blockstates/nexus_tree_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeLog",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/loot_tables/blocks/nexus_tree_log.json",
+          "src/main/resources/assets/nexus/blockstates/nexus_tree_log.json",
+          "src/main/java/net/mcreator/nexusmc/block/NEXUS_treeLogBlock.java",
+          "src/main/resources/assets/nexus/models/item/nexus_tree_log.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_log.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treePlanks",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/block/nexus_tree_planks.json",
+          "src/main/resources/assets/nexus/models/item/nexus_tree_planks.json",
+          "src/main/resources/assets/nexus/blockstates/nexus_tree_planks.json",
+          "src/main/java/net/mcreator/nexusmc/block/NEXUS_treePlanksBlock.java",
+          "src/main/resources/data/nexus/loot_tables/blocks/nexus_tree_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeLeaves",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/block/nexus_tree_leaves.json",
+          "src/main/resources/assets/nexus/models/item/nexus_tree_leaves.json",
+          "src/main/resources/assets/nexus/blockstates/nexus_tree_leaves.json",
+          "src/main/java/net/mcreator/nexusmc/block/NEXUS_treeLeavesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeStairs",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/blockstates/nexus_tree_stairs.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_stairs_outer.json",
+          "src/main/resources/assets/nexus/models/item/nexus_tree_stairs.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/nexus_tree_stairs.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_stairs.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_stairs_inner.json",
+          "src/main/java/net/mcreator/nexusmc/block/NEXUS_treeStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeSlab",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/blockstates/nexus_tree_slab.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_slab_top.json",
+          "src/main/java/net/mcreator/nexusmc/block/NEXUS_treeSlabBlock.java",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_slab.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/nexus_tree_slab.json",
+          "src/main/resources/assets/nexus/models/item/nexus_tree_slab.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_slab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeFence",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/block/nexus_tree_fence.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/nexus_tree_fence.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_fence_post.json",
+          "src/main/resources/assets/nexus/blockstates/nexus_tree_fence.json",
+          "src/main/java/net/mcreator/nexusmc/block/NEXUS_treeFenceBlock.java",
+          "src/main/resources/assets/nexus/models/item/nexus_tree_fence.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_fence_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeFenceGate",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/block/nexus_tree_fence_gate_wall.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_fence_gate_open.json",
+          "src/main/resources/assets/nexus/models/item/nexus_tree_fence_gate.json",
+          "src/main/resources/assets/nexus/blockstates/nexus_tree_fence_gate.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_fence_gate.json",
+          "src/main/java/net/mcreator/nexusmc/block/NEXUS_treeFenceGateBlock.java",
+          "src/main/resources/data/nexus/loot_tables/blocks/nexus_tree_fence_gate.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_fence_gate_wall_open.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treePressurePlate",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/item/nexus_tree_pressure_plate.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_pressure_plate_down.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_pressure_plate.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/nexus_tree_pressure_plate.json",
+          "src/main/resources/assets/nexus/blockstates/nexus_tree_pressure_plate.json",
+          "src/main/java/net/mcreator/nexusmc/block/NEXUS_treePressurePlateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeButton",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/loot_tables/blocks/nexus_tree_button.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_button.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_button_pressed.json",
+          "src/main/resources/assets/nexus/models/block/nexus_tree_button_inventory.json",
+          "src/main/resources/assets/nexus/blockstates/nexus_tree_button.json",
+          "src/main/java/net/mcreator/nexusmc/block/NEXUS_treeButtonBlock.java",
+          "src/main/resources/assets/nexus/models/item/nexus_tree_button.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeWoodRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/nexus_tree_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treePlanksLogRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/nexus_tree_planks_log_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treePlanksWoodRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/nexus_tree_planks_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeStairsRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/nexus_tree_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeSlabRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/nexus_tree_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeFenceRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/nexus_tree_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/nexus_tree_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/nexus_tree_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeButtonRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/nexus_tree_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS_treeStickRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_tree_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/nexus_tree_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nexusshard",
+      "type": "animateditem",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexusshard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/item/renderer/NexusshardItemRenderer.java",
+          "src/main/java/net/mcreator/nexusmc/item/model/NexusshardItemModel.java",
+          "src/main/resources/assets/nexus/models/item/nexusshard.json",
+          "src/main/java/net/mcreator/nexusmc/item/NexusshardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Nexustree",
+      "type": "feature",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexustree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/worldgen/placed_feature/nexustree.json",
+          "src/main/resources/data/nexus/worldgen/configured_feature/nexustree.json",
+          "src/main/resources/data/nexus/neoforge/biome_modifier/nexustree_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "NexussapplingOnTickUpdate",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexussappling_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/NexussapplingOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nexussappling",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexussappling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/item/nexussappling.json",
+          "src/main/resources/assets/nexus/models/block/nexussappling.json",
+          "src/main/resources/assets/nexus/blockstates/nexussappling.json",
+          "src/main/java/net/mcreator/nexusmc/block/NexussapplingBlock.java",
+          "src/main/resources/data/nexus/loot_tables/blocks/nexussappling.json"
+        ]
+      }
+    },
+    {
+      "name": "Nexushub",
+      "type": "biome",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexushub",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/worldgen/biome/nexushub.json"
+        ]
+      }
+    },
+    {
+      "name": "NEXUSCONNECTHUB",
+      "type": "dimension",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexusconnecthub",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/world/teleporter/NEXUSCONNECTHUBPortalShape.java",
+          "src/main/resources/assets/nexus/models/block/nexusconnecthub_portal_ew.json",
+          "src/main/resources/data/nexus/dimension/nexusconnecthub.json",
+          "src/main/java/net/mcreator/nexusmc/block/NEXUSCONNECTHUBPortalBlock.java",
+          "src/main/resources/assets/nexus/models/block/nexusconnecthub_portal_ns.json",
+          "src/main/java/net/mcreator/nexusmc/item/NEXUSCONNECTHUBItem.java",
+          "src/main/resources/assets/nexus/models/item/nexusconnecthub.json",
+          "src/main/java/net/mcreator/nexusmc/world/dimension/NEXUSCONNECTHUBDimension.java",
+          "src/main/resources/assets/nexus/blockstates/nexusconnecthub_portal.json",
+          "src/main/java/net/mcreator/nexusmc/world/teleporter/NEXUSCONNECTHUBTeleporter.java",
+          "src/main/resources/data/nexus/dimension_type/nexusconnecthub.json"
+        ]
+      }
+    },
+    {
+      "name": "Server",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/ServerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Noslimes",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noslimes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/NoslimesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RSH",
+      "type": "gui",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rsh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/world/inventory/RSHMenu.java",
+          "src/main/java/net/mcreator/nexusmc/client/gui/RSHScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "NEXUStreeLeaves",
+      "type": "loottable",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexu_stree_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/loot_tables/blocks/nexus_treeleaves.json"
+        ]
+      }
+    },
+    {
+      "name": "Nexuscore",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexuscore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/item/NexuscoreItem.java",
+          "src/main/resources/assets/nexus/models/item/nexuscore.json"
+        ]
+      }
+    },
+    {
+      "name": "Nexusriftr",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexusriftr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/nexusriftr.json"
+        ]
+      }
+    },
+    {
+      "name": "Nexuscoreblock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexuscoreblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/loot_tables/blocks/nexuscoreblock.json",
+          "src/main/resources/assets/nexus/blockstates/nexuscoreblock.json",
+          "src/main/resources/assets/nexus/models/block/nexuscoreblock.json",
+          "src/main/java/net/mcreator/nexusmc/block/NexuscoreblockBlock.java",
+          "src/main/resources/assets/nexus/models/item/nexuscoreblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Eyesinthedarkness",
+      "type": "animatedentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eyesinthedarkness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/client/renderer/EyesinthedarknessRenderer.java",
+          "src/main/java/net/mcreator/nexusmc/entity/model/EyesinthedarknessModel.java",
+          "src/main/java/net/mcreator/nexusmc/entity/EyesinthedarknessEntity.java",
+          "src/main/java/net/mcreator/nexusmc/entity/layer/EyesinthedarknessLayer.java",
+          "src/main/resources/assets/nexus/models/item/eyesinthedarkness_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Verydarkforest",
+      "type": "biome",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verydarkforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/worldgen/biome/verydarkforest.json"
+        ]
+      }
+    },
+    {
+      "name": "Verydarkforesttree",
+      "type": "feature",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verydarkforesttree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/worldgen/placed_feature/verydarkforesttree.json",
+          "src/main/resources/data/nexus/neoforge/biome_modifier/verydarkforesttree_biome_modifier.json",
+          "src/main/resources/data/nexus/worldgen/configured_feature/verydarkforesttree.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakWood",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/blockstates/very_dark_oak_wood.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_wood.json",
+          "src/main/java/net/mcreator/nexusmc/block/Very_dark_oakWoodBlock.java",
+          "src/main/resources/data/nexus/loot_tables/blocks/very_dark_oak_wood.json",
+          "src/main/resources/assets/nexus/models/item/very_dark_oak_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakLog",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/block/Very_dark_oakLogBlock.java",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_log.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/very_dark_oak_log.json",
+          "src/main/resources/assets/nexus/models/item/very_dark_oak_log.json",
+          "src/main/resources/assets/nexus/blockstates/very_dark_oak_log.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakPlanks",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/loot_tables/blocks/very_dark_oak_planks.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_planks.json",
+          "src/main/resources/assets/nexus/models/item/very_dark_oak_planks.json",
+          "src/main/resources/assets/nexus/blockstates/very_dark_oak_planks.json",
+          "src/main/java/net/mcreator/nexusmc/block/Very_dark_oakPlanksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakLeaves",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/item/very_dark_oak_leaves.json",
+          "src/main/resources/assets/nexus/blockstates/very_dark_oak_leaves.json",
+          "src/main/java/net/mcreator/nexusmc/block/Very_dark_oakLeavesBlock.java",
+          "src/main/resources/data/nexus/loot_tables/blocks/very_dark_oak_leaves.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakStairs",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_stairs.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_stairs_inner.json",
+          "src/main/resources/assets/nexus/models/item/very_dark_oak_stairs.json",
+          "src/main/resources/assets/nexus/blockstates/very_dark_oak_stairs.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/very_dark_oak_stairs.json",
+          "src/main/java/net/mcreator/nexusmc/block/Very_dark_oakStairsBlock.java",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakSlab",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/item/very_dark_oak_slab.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/very_dark_oak_slab.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_slab.json",
+          "src/main/java/net/mcreator/nexusmc/block/Very_dark_oakSlabBlock.java",
+          "src/main/resources/assets/nexus/blockstates/very_dark_oak_slab.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_slab_full.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakFence",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/loot_tables/blocks/very_dark_oak_fence.json",
+          "src/main/resources/assets/nexus/models/item/very_dark_oak_fence.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_fence_inventory.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_fence_post.json",
+          "src/main/java/net/mcreator/nexusmc/block/Very_dark_oakFenceBlock.java",
+          "src/main/resources/assets/nexus/blockstates/very_dark_oak_fence.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakFenceGate",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_fence_gate_open.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/very_dark_oak_fence_gate.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_fence_gate_wall.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/nexusmc/block/Very_dark_oakFenceGateBlock.java",
+          "src/main/resources/assets/nexus/blockstates/very_dark_oak_fence_gate.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_fence_gate.json",
+          "src/main/resources/assets/nexus/models/item/very_dark_oak_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakPressurePlate",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_pressure_plate_down.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/very_dark_oak_pressure_plate.json",
+          "src/main/java/net/mcreator/nexusmc/block/Very_dark_oakPressurePlateBlock.java",
+          "src/main/resources/assets/nexus/models/item/very_dark_oak_pressure_plate.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_pressure_plate.json",
+          "src/main/resources/assets/nexus/blockstates/very_dark_oak_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakButton",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/loot_tables/blocks/very_dark_oak_button.json",
+          "src/main/java/net/mcreator/nexusmc/block/Very_dark_oakButtonBlock.java",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_button_inventory.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_button.json",
+          "src/main/resources/assets/nexus/models/item/very_dark_oak_button.json",
+          "src/main/resources/assets/nexus/blockstates/very_dark_oak_button.json",
+          "src/main/resources/assets/nexus/models/block/very_dark_oak_button_pressed.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakWoodRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/very_dark_oak_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakPlanksLogRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/very_dark_oak_planks_log_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakPlanksWoodRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/very_dark_oak_planks_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakStairsRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/very_dark_oak_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakSlabRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/very_dark_oak_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakFenceRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/very_dark_oak_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/very_dark_oak_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/very_dark_oak_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakButtonRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/very_dark_oak_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Very_dark_oakStickRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_dark_oak_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/very_dark_oak_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nexusbricks",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexusbricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/item/nexusbricks.json",
+          "src/main/resources/assets/nexus/models/block/nexusbricks.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/nexusbricks.json",
+          "src/main/resources/assets/nexus/blockstates/nexusbricks.json",
+          "src/main/java/net/mcreator/nexusmc/block/NexusbricksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Corruptedforest",
+      "type": "biome",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/worldgen/placed_feature/corruptedforest_tree.json",
+          "src/main/resources/data/nexus/worldgen/configured_feature/corruptedforest_tree.json",
+          "src/main/resources/data/nexus/worldgen/biome/corruptedforest.json"
+        ]
+      }
+    },
+    {
+      "name": "Corruptedblock",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/blockstates/corruptedblock.json",
+          "src/main/resources/assets/nexus/models/block/corruptedblock.json",
+          "src/main/resources/assets/nexus/models/item/corruptedblock.json",
+          "src/main/java/net/mcreator/nexusmc/block/CorruptedblockBlock.java",
+          "src/main/resources/data/nexus/loot_tables/blocks/corruptedblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Nighttime",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nighttime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/NighttimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Corruptedplayerentity",
+      "type": "livingentity",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedplayerentity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/client/renderer/CorruptedplayerentityRenderer.java",
+          "src/main/java/net/mcreator/nexusmc/entity/CorruptedplayerentityEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Gettext",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gettext",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/GettextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "text",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CorruptedplayerentityOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedplayerentity_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/CorruptedplayerentityOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Follow",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "follow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/FollowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EyesinthedarknessOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eyesinthedarkness_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/EyesinthedarknessOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spawncave",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawncave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/SpawncaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bespawn",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bespawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/BespawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Electrolyzedblock",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrolyzedblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/blockstates/electrolyzedblock.json",
+          "src/main/resources/assets/nexus/models/item/electrolyzedblock.json",
+          "src/main/resources/assets/nexus/models/block/electrolyzedblock.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/electrolyzedblock.json",
+          "src/main/java/net/mcreator/nexusmc/block/ElectrolyzedblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Electrolyzedpillar",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrolyzedpillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/block/electrolyzedpillar.json",
+          "src/main/resources/assets/nexus/blockstates/electrolyzedpillar.json",
+          "src/main/resources/assets/nexus/models/item/electrolyzedpillar.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/electrolyzedpillar.json",
+          "src/main/java/net/mcreator/nexusmc/block/ElectrolyzedpillarBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Electrolyzedcraftingtable",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrolyzedcraftingtable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/item/electrolyzedcraftingtable.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/electrolyzedcraftingtable.json",
+          "src/main/resources/assets/nexus/models/block/electrolyzedcraftingtable.json",
+          "src/main/resources/assets/nexus/blockstates/electrolyzedcraftingtable.json",
+          "src/main/java/net/mcreator/nexusmc/block/ElectrolyzedcraftingtableBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Ceb",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/ceb.json"
+        ]
+      }
+    },
+    {
+      "name": "Cep",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/cep.json"
+        ]
+      }
+    },
+    {
+      "name": "Cec",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/cec.json"
+        ]
+      }
+    },
+    {
+      "name": "NetworkdialerRightclicked",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "networkdialer_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/NetworkdialerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Networkdialer",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "networkdialer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/item/NetworkdialerItem.java",
+          "src/main/resources/assets/nexus/models/item/networkdialer.json"
+        ]
+      }
+    },
+    {
+      "name": "InformationfetcherRightclicked",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "informationfetcher_rightclicked",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/InformationfetcherRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IFGUI",
+      "type": "gui",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ifgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/client/gui/IFGUIScreen.java",
+          "src/main/java/net/mcreator/nexusmc/world/inventory/IFGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Informationfetcher",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "informationfetcher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/item/informationfetcher.json",
+          "src/main/java/net/mcreator/nexusmc/item/InformationfetcherItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ModelIndex",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "model_index",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/ModelIndexProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NameIndex",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "name_index",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/NameIndexProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Storeunused",
+      "type": "gui",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storeunused",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/client/gui/StoreunusedScreen.java",
+          "src/main/java/net/mcreator/nexusmc/world/inventory/StoreunusedMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Warpingdevice",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warpingdevice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/item/WarpingdeviceItem.java",
+          "src/main/resources/assets/nexus/models/item/warpingdevice.json"
+        ]
+      }
+    },
+    {
+      "name": "WDGUI",
+      "type": "gui",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wdgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/world/inventory/WDGUIMenu.java",
+          "src/main/java/net/mcreator/nexusmc/client/gui/WDGUIScreen.java",
+          "src/main/java/net/mcreator/nexusmc/network/WDGUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Obc",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/ObcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarpingdeviceRightclicked",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warpingdevice_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/WarpingdeviceRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nexusriftitem",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexusriftitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/item/NexusriftitemItem.java",
+          "src/main/resources/assets/nexus/models/item/nexusriftitem.json"
+        ]
+      }
+    },
+    {
+      "name": "Nddcr",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nddcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/nddcr.json"
+        ]
+      }
+    },
+    {
+      "name": "Wdcr",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wdcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/wdcr.json"
+        ]
+      }
+    },
+    {
+      "name": "Ifcr",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ifcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/ifcr.json"
+        ]
+      }
+    },
+    {
+      "name": "Moonlightprojector",
+      "type": "animatedblock",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonlightprojector",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/blockstates/moonlightprojector.json",
+          "src/main/resources/assets/nexus/models/custom/moonlightprojector_particle.json",
+          "src/main/java/net/mcreator/nexusmc/block/display/MoonlightprojectorDisplayItem.java",
+          "src/main/java/net/mcreator/nexusmc/block/renderer/MoonlightprojectorDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/nexusmc/block/MoonlightprojectorBlock.java",
+          "src/main/java/net/mcreator/nexusmc/block/entity/MoonlightprojectorTileEntity.java",
+          "src/main/java/net/mcreator/nexusmc/block/model/MoonlightprojectorBlockModel.java",
+          "src/main/java/net/mcreator/nexusmc/block/model/MoonlightprojectorDisplayModel.java",
+          "src/main/resources/assets/nexus/models/item/moonlightprojector.json",
+          "src/main/java/net/mcreator/nexusmc/block/renderer/MoonlightprojectorTileRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "MoonlightprojectorBlockAdded",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonlightprojector_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/MoonlightprojectorBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Animate",
+      "type": "function",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/functions/animate.mcfunction"
+        ]
+      }
+    },
+    {
+      "name": "Part",
+      "type": "function",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "part",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/functions/part.mcfunction"
+        ]
+      }
+    },
+    {
+      "name": "MoonlightprojectorOnTickUpdate",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonlightprojector_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/MoonlightprojectorOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mlpcr",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mlpcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/recipes/mlpcr.json"
+        ]
+      }
+    },
+    {
+      "name": "Smalltower",
+      "type": "structure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smalltower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/worldgen/structure/smalltower.json",
+          "src/main/resources/data/nexus/worldgen/template_pool/smalltower.json",
+          "src/main/resources/data/nexus/worldgen/structure_set/smalltower.json"
+        ]
+      }
+    },
+    {
+      "name": "Mediumtower",
+      "type": "structure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mediumtower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/worldgen/structure_set/mediumtower.json",
+          "src/main/resources/data/nexus/worldgen/template_pool/mediumtower.json",
+          "src/main/resources/data/nexus/worldgen/structure/mediumtower.json"
+        ]
+      }
+    },
+    {
+      "name": "Core",
+      "type": "structure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/worldgen/structure/core.json",
+          "src/main/resources/data/nexus/worldgen/template_pool/core.json",
+          "src/main/resources/data/nexus/worldgen/structure_set/core.json"
+        ]
+      }
+    },
+    {
+      "name": "Sc",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/ScProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Logoblock",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logoblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/block/logoblock.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/logoblock.json",
+          "src/main/java/net/mcreator/nexusmc/block/LogoblockBlock.java",
+          "src/main/resources/assets/nexus/blockstates/logoblock.json",
+          "src/main/resources/assets/nexus/models/item/logoblock.json"
+        ]
+      }
+    },
+    {
+      "name": "TGUI",
+      "type": "gui",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/network/TGUIButtonMessage.java",
+          "src/main/java/net/mcreator/nexusmc/client/gui/TGUIScreen.java",
+          "src/main/java/net/mcreator/nexusmc/world/inventory/TGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Buttonclick",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttonclick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/ButtonclickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/oldterm"
+    },
+    {
+      "name": "Terminal",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/block/TerminalBlock.java",
+          "src/main/resources/assets/nexus/models/item/terminal.json",
+          "src/main/resources/assets/nexus/models/block/terminal.json",
+          "src/main/resources/assets/nexus/blockstates/terminal.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/terminal.json"
+        ]
+      }
+    },
+    {
+      "name": "Algui",
+      "type": "gui",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "algui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/world/inventory/AlguiMenu.java",
+          "src/main/java/net/mcreator/nexusmc/client/gui/AlguiScreen.java",
+          "src/main/java/net/mcreator/nexusmc/network/AlguiButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "NEXUSsus",
+      "type": "livingentity",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexu_ssus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/entity/NEXUSsusEntity.java",
+          "src/main/resources/assets/nexus/models/item/nexu_ssus_spawn_egg.json",
+          "src/main/java/net/mcreator/nexusmc/client/renderer/NEXUSsusRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "NexuscoreblockBlockAdded",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexuscoreblock_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/NexuscoreblockBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Login",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "login",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/LoginProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tcurser",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tcurser",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/TcurserProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Error",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "error",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/ErrorProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Explodes",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explodes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/ExplodesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/oldterm"
+    },
+    {
+      "name": "Sd",
+      "type": "command",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/command/SdCommand.java"
+        ]
+      },
+      "path": "~/oldterm"
+    },
+    {
+      "name": "Old1",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_1",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/Old1Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/oldterm"
+    },
+    {
+      "name": "Old2",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_2",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/Old2Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/oldterm"
+    },
+    {
+      "name": "Old3",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_3",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/Old3Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/oldterm"
+    },
+    {
+      "name": "Old4",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_4",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/Old4Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/oldterm"
+    },
+    {
+      "name": "Old5",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_5",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/Old5Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/oldterm"
+    },
+    {
+      "name": "Old6",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_6",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/Old6Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/oldterm"
+    },
+    {
+      "name": "Old7",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_7",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/Old7Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/oldterm"
+    },
+    {
+      "name": "Old8",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_8",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/Old8Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/oldterm"
+    },
+    {
+      "name": "Acgui",
+      "type": "gui",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/network/AcguiButtonMessage.java",
+          "src/main/java/net/mcreator/nexusmc/world/inventory/AcguiMenu.java",
+          "src/main/java/net/mcreator/nexusmc/client/gui/AcguiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Fgfasd",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fgfasd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/FgfasdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Addtext",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "addtext",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/AddtextProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/oldterm"
+    },
+    {
+      "name": "FL0WER1",
+      "type": "plant",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fl_0_wer_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/block/FL0WER1Block.java",
+          "src/main/resources/assets/nexus/models/item/fl_0_wer_1.json",
+          "src/main/resources/assets/nexus/models/block/fl_0_wer_1.json",
+          "src/main/resources/assets/nexus/blockstates/fl_0_wer_1.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/fl_0_wer_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Flower2",
+      "type": "plant",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/block/Flower2Block.java",
+          "src/main/resources/assets/nexus/blockstates/flower_2.json",
+          "src/main/resources/assets/nexus/models/block/flower_2.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/flower_2.json",
+          "src/main/resources/assets/nexus/models/item/flower_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Bluelamp",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluelamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/block/BluelampBlock.java",
+          "src/main/resources/assets/nexus/models/block/bluelamp.json",
+          "src/main/resources/assets/nexus/blockstates/bluelamp.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/bluelamp.json",
+          "src/main/resources/assets/nexus/models/item/bluelamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Reddots",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reddots",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/models/block/reddots.json",
+          "src/main/java/net/mcreator/nexusmc/block/ReddotsBlock.java",
+          "src/main/resources/data/nexus/loot_tables/blocks/reddots.json",
+          "src/main/resources/assets/nexus/models/item/reddots.json",
+          "src/main/resources/assets/nexus/blockstates/reddots.json"
+        ]
+      }
+    },
+    {
+      "name": "Otherbluething",
+      "type": "block",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "otherbluething",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/block/OtherbluethingBlock.java",
+          "src/main/resources/assets/nexus/blockstates/otherbluething.json",
+          "src/main/resources/assets/nexus/models/block/otherbluething.json",
+          "src/main/resources/assets/nexus/models/item/otherbluething.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/otherbluething.json"
+        ]
+      }
+    },
+    {
+      "name": "Brownthing",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brownthing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/block/BrownthingBlock.java",
+          "src/main/resources/assets/nexus/blockstates/brownthing.json",
+          "src/main/resources/assets/nexus/models/block/brownthing.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/brownthing.json",
+          "src/main/resources/assets/nexus/models/item/brownthing.json"
+        ]
+      }
+    },
+    {
+      "name": "Terminal2",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminal_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nexus/loot_tables/blocks/terminal_2.json",
+          "src/main/java/net/mcreator/nexusmc/block/Terminal2Block.java",
+          "src/main/resources/assets/nexus/models/block/terminal_2.json",
+          "src/main/resources/assets/nexus/models/item/terminal_2.json",
+          "src/main/resources/assets/nexus/blockstates/terminal_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Logo",
+      "type": "painting",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logo",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Camera",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camera",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nexus/blockstates/camera.json",
+          "src/main/resources/assets/nexus/models/block/camera.json",
+          "src/main/java/net/mcreator/nexusmc/block/CameraBlock.java",
+          "src/main/resources/assets/nexus/models/item/camera.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/camera.json"
+        ]
+      }
+    },
+    {
+      "name": "CameraBlockAdded",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camera_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/CameraBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Monitor",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/block/MonitorBlock.java",
+          "src/main/resources/assets/nexus/models/item/monitor.json",
+          "src/main/resources/data/nexus/loot_tables/blocks/monitor.json",
+          "src/main/resources/assets/nexus/blockstates/monitor.json",
+          "src/main/resources/assets/nexus/models/block/monitor.json"
+        ]
+      }
+    },
+    {
+      "name": "Cgui",
+      "type": "gui",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/world/inventory/CguiMenu.java",
+          "src/main/java/net/mcreator/nexusmc/client/gui/CguiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "CameraBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camera_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/CameraBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mgui",
+      "type": "gui",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/client/gui/MguiScreen.java",
+          "src/main/java/net/mcreator/nexusmc/world/inventory/MguiMenu.java",
+          "src/main/java/net/mcreator/nexusmc/network/MguiButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Cv",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cv",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/CvProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Corruptedc",
+      "type": "potioneffect",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/potion/CorruptedcMobEffect.java"
+        ]
+      },
+      "path": "~/ccode"
+    },
+    {
+      "name": "CorruptedcOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedc_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/CorruptedcOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ccode"
+    },
+    {
+      "name": "Nodeath",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nodeath",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/NodeathProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ccode"
+    },
+    {
+      "name": "Ccodes",
+      "type": "potion",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ccodes",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/ccode"
+    },
+    {
+      "name": "Nohit",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nohit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/NohitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ccode"
+    },
+    {
+      "name": "Rcm",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/RcmProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ccode"
+    },
+    {
+      "name": "Rcommand",
+      "type": "command",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcommand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/command/RcommandCommand.java"
+        ]
+      },
+      "path": "~/ccode"
+    },
+    {
+      "name": "CobwebActiveTickCondition",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobweb_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/procedures/CobwebActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cobweb",
+      "type": "potioneffect",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobweb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nexusmc/potion/CobwebMobEffect.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "cct",
+      "type": "string",
+      "scope": "global",
+      "value": "\"\""
+    },
+    {
+      "name": "entity",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": "\"\""
+    },
+    {
+      "name": "terminal_chache",
+      "type": "arraylist",
+      "scope": "global",
+      "value": "new ArrayList\u003c\u003e()"
+    },
+    {
+      "name": "usernames",
+      "type": "arraylist",
+      "scope": "global",
+      "value": "new ArrayList\u003c\u003e()"
+    },
+    {
+      "name": "passwords",
+      "type": "arraylist",
+      "scope": "global",
+      "value": "new ArrayList\u003c\u003e()"
+    },
+    {
+      "name": "textsss",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": "\"\""
+    },
+    {
+      "name": "curse_r",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": "\"\""
+    },
+    {
+      "name": "camsx",
+      "type": "arraylist",
+      "scope": "global",
+      "value": "new ArrayList\u003c\u003e()"
+    },
+    {
+      "name": "camsy",
+      "type": "arraylist",
+      "scope": "global",
+      "value": "new ArrayList\u003c\u003e()"
+    },
+    {
+      "name": "camsz",
+      "type": "arraylist",
+      "scope": "global",
+      "value": "new ArrayList\u003c\u003e()"
+    },
+    {
+      "name": "temp_camID",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "camdir",
+      "type": "arraylist",
+      "scope": "global",
+      "value": "new ArrayList\u003c\u003e()"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "nexus_rift",
+      "files": [
+        "electricity_spark_sound_effects_hq_tuberipper.cc"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "warp",
+      "files": [
+        "time_warp_sound_effect"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Very_dark_oakSlab",
+      "~CUSTOM:NEXUS_treeSlab"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Bluelamp"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Very_dark_oakStairs",
+      "~CUSTOM:NEXUS_treeStairs"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_ruin_warm": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_monument": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.DIRT#0",
+      "~Blocks.GRASS"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BIOMES:minecraft:has_structure/village_taiga": [
+      "~CUSTOM:Corruptedforest"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Very_dark_oakPlanks",
+      "~CUSTOM:Very_dark_oakLog",
+      "~CUSTOM:Very_dark_oakWood",
+      "~CUSTOM:NEXUS_treePlanks",
+      "~CUSTOM:NEXUS_treeLog",
+      "~CUSTOM:NEXUS_treeWood"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:Very_dark_oakFence",
+      "~CUSTOM:NEXUS_treeFence"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:Corruptedforest"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "gui.nexus.wdgui.xvar": "x",
+      "block.nexus.very_dark_oak_fence": "Very_dark_oak Fence",
+      "gui.nexus.storeunused.button_connect_to_custom_server": "connect",
+      "item.nexus.nexusriftitem": "Nexus rift",
+      "item.nexus.nexusshard": "Nexus shard",
+      "block.nexus.nexus_tree_planks": "NEXUS_tree Planks",
+      "gui.nexus.mgui.cid": "camera id",
+      "gui.nexus.wdgui.button_warp": "warp",
+      "gui.nexus.algui.label_username": "username:",
+      "item_group.nexus.nexus": "§k Nexus",
+      "gui.nexus.acgui.ac": "",
+      "gui.nexus.cgui.button_send": "send",
+      "block.nexus.nexusbricks": "Nexusbricks",
+      "gui.nexus.storeunused.button_host_this_world_as_server": "host this world as server",
+      "subtitles.warp": "",
+      "gui.nexus.algui.label_login_via_acces_code": "login via acces code",
+      "gui.nexus.algui.pw": "",
+      "block.nexus.nexus_tree_wood": "NEXUS_tree Wood",
+      "block.nexus.very_dark_oak_button": "Very_dark_oak Button",
+      "gui.nexus.storeunused.label_server_ip_of_your_world": "server IP of your world: ",
+      "item.minecraft.lingering_potion.effect.ccodes": "Lingering Potion of Corrupdet code",
+      "block.nexus.very_dark_oak_stairs": "Very_dark_oak Stairs",
+      "gui.nexus.ctsgui.label_server_ip_of_your_world": "server IP of your world: ",
+      "gui.nexus.acgui.label_dont_know_your_login_details": "dont know your login details?",
+      "subtitles.nexus_rift": "",
+      "block.nexus.very_dark_oak_leaves": "Very_dark_oak Leaves",
+      "gui.nexus.acgui.pw": "",
+      "gui.nexus.ctsgui.button_host_this_world_as_server": "host this world as server",
+      "block.nexus.bluelamp": "OIP 15",
+      "block.nexus.very_dark_oak_wood": "Very_dark_oak Wood",
+      "gui.nexus.mgui.button_view": "view",
+      "block.nexus.nexus_tree_fence": "NEXUS_tree Fence",
+      "biome.nexus.verydarkforest": "Very dark forest",
+      "entity.nexus.corruptedplayerentity": "Corrupted.player.entity.class",
+      "gui.nexus.ctsgui.serverip": "server IP (only when using custom server)",
+      "painting.nexus.logo.title": "Logo",
+      "item.nexus.nexuscore": "Nexus core",
+      "gui.nexus.acgui.label_admin_login": "admin login",
+      "effect.nexus.cobweb": "Cobweb",
+      "gui.nexus.tgui.label_old7": "old7",
+      "gui.nexus.tgui.label_old8": "old8",
+      "gui.nexus.storeunused.serverip": "server IP (only when using custom server)",
+      "gui.nexus.algui.label_dont_know_your_login_details": "dont know your login details?",
+      "block.nexus.moonlightprojector": "Moonlightprojector",
+      "gui.nexus.wdgui.zvar": "z",
+      "block.nexus.nexuscoreblock": "Nexus heart",
+      "gui.nexus.algui.button_login_via_acces_code": "login via acces code",
+      "gui.nexus.mgui.label_will_crash_your_game": "will crash your game",
+      "gui.nexus.ctsgui.label_connect": "connect",
+      "entity.nexus.nexusrift": "Nexus rift",
+      "item.nexus.eyesinthedarkness_spawn_egg": "Eyes in the darkness Spawn Egg",
+      "gui.nexus.ctsgui.ctcs": "connect to custom server?",
+      "gui.nexus.rsh.label_redirecting_you_to_the_hub_this": "redirecting you to the hub this can take upto 5 seconds",
+      "block.nexus.nexus_tree_fence_gate": "NEXUS_tree Fence Gate",
+      "gui.nexus.acgui.button_login": "login",
+      "biome.nexus.corruptedforest": "Corrupted forest",
+      "block.nexus.electrolyzedpillar": "Electrolyzed pillar",
+      "gui.nexus.acgui.label_password": "password:",
+      "gui.nexus.ctsgui.button_connect_to_custom_server": "connect",
+      "effect.nexus.corruptedc": "Corrupted code",
+      "item.minecraft.splash_potion.effect.ccodes": "Splash Potion of Corrupdet code",
+      "block.nexus.nexus_tree_leaves": "NEXUS tree Leaves",
+      "gui.nexus.algui.button_login": "login",
+      "gui.nexus.acgui.un": "",
+      "block.nexus.nexus_tree_slab": "NEXUS_tree Slab",
+      "block.nexus.reddots": "OIP 17",
+      "gui.nexus.ctsgui.label_connecting_to_nexus_link_server": "connecting to nexus link server",
+      "item.nexus.informationfetcher": "Information fetcher",
+      "block.nexus.very_dark_oak_fence_gate": "Very_dark_oak Fence Gate",
+      "block.nexus.corruptedblock": "Corruptedblock",
+      "painting.nexus.logo.author": "\u003cunknown\u003e",
+      "entity.nexus.eyesinthedarkness": "Eyes in the darkness",
+      "gui.nexus.wdgui.yvar": "y",
+      "block.nexus.very_dark_oak_planks": "Very_dark_oak Planks",
+      "block.nexus.fl_0_wer_1": "nexus flower type 1",
+      "gui.nexus.tgui.label_old1": "old1",
+      "block.nexus.nexus_tree_log": "NEXUS_tree Log",
+      "gui.nexus.tgui.label_old2": "old2",
+      "block.nexus.camera": "Camera",
+      "gui.nexus.tgui.button_run": "run",
+      "block.nexus.nexussappling": "Nexus sappling",
+      "gui.nexus.tgui.label_old5": "old5",
+      "gui.nexus.tgui.label_old6": "old6",
+      "gui.nexus.tgui.label_old3": "old3",
+      "block.nexus.very_dark_oak_log": "Very_dark_oak Log",
+      "gui.nexus.tgui.label_old4": "old4",
+      "gui.nexus.storeunused.ctcs": "connect to custom server?",
+      "gui.nexus.wdgui.y": "y",
+      "block.nexus.electrolyzedblock": "Electrolyzed block",
+      "gui.nexus.wdgui.x": "x",
+      "item.nexus.warpingdevice": "Warping device",
+      "gui.nexus.algui.un": "",
+      "block.nexus.monitor": "Monitor",
+      "gui.nexus.wdgui.z": "z",
+      "gui.nexus.tgui.command": "",
+      "item.nexus.networkdialer": "Network dialer",
+      "block.nexus.brownthing": "OIP 16",
+      "item.minecraft.tipped_arrow.effect.ccodes": "Arrow of Corrupdet code",
+      "gui.nexus.cgui.message": "message",
+      "item.nexus.nexustabicon": "Nexustabicon",
+      "biome.nexus.nexushub": "Nexushub",
+      "gui.nexus.storeunused.label_connect": "connect",
+      "entity.nexus.nexu_ssus": "NEXUS",
+      "item.nexus.nexusconnecthub": "NEXUSCONNECTHUB Portal Igniter",
+      "block.nexus.very_dark_oak_slab": "Very_dark_oak Slab",
+      "block.nexus.otherbluething": "OIP 14",
+      "block.nexus.nexus_tree_button": "NEXUS_tree Button",
+      "item.nexus.nexusrift_spawn_egg": "Nexus rift Spawn Egg",
+      "item.minecraft.potion.effect.ccodes": "Potion of Corrupdet code",
+      "block.nexus.nexus_tree_pressure_plate": "NEXUS_tree Pressure Plate",
+      "block.nexus.terminal": "admin terminal type 1",
+      "block.nexus.electrolyzedcraftingtable": "Electrolyzed crafting table",
+      "block.nexus.flower_2": "nexus flower type 2",
+      "gui.nexus.mgui.label_currently_broken": "currently broken",
+      "gui.nexus.algui.label_admin_login": "admin login",
+      "block.nexus.nexus_tree_stairs": "NEXUS_tree Stairs",
+      "item.nexus.nexu_ssus_spawn_egg": "NEXUS Spawn Egg",
+      "gui.nexus.acgui.label_username": "acces code:",
+      "block.nexus.very_dark_oak_pressure_plate": "Very_dark_oak Pressure Plate",
+      "gui.nexus.algui.label_password": "password:",
+      "gui.nexus.acgui.button_login_via_acces_code": "login via acces code",
+      "gui.nexus.tgui.label_run": "run://",
+      "block.nexus.logoblock": "Logo block",
+      "block.nexus.terminal_2": "admin terminal type 2"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "oldterm",
+        "children": []
+      },
+      {
+        "name": "ccode",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "nexus",
+    "modName": "§k NEXUS",
+    "version": "1.0.4",
+    "description": "was intended to be an MMO but has been discontinued",
+    "author": "ff6f8d68, Glitchy_404",
+    "websiteURL": "https://github.com/ff6f8d68/nexusMC",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "nexustabicon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib",
+      "particlepresets"
+    ],
+    "currentGenerator": "neoforge-1.20.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.nexusmc"
+  },
+  "mcreatorVersion": 202400118518
+}

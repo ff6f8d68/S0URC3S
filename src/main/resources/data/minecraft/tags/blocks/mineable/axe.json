@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "nexus:very_dark_oak_planks",
+    "nexus:very_dark_oak_log",
+    "nexus:very_dark_oak_wood",
+    "nexus:nexus_tree_planks",
+    "nexus:nexus_tree_log",
+    "nexus:nexus_tree_wood"
+  ]
+}

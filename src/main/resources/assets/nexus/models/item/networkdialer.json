@@ -1,0 +1,7 @@
+{
+  "parent": "nexus:custom/network_dm",
+  "textures": {
+    "0": "nexus:block/network_dm_t",
+    "particle": "nexus:item/nexustabicon"
+  }
+}

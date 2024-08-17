@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "nexus:nexus_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "nexus:nexus_tree_button",
+    "count": 1
+  }
+}

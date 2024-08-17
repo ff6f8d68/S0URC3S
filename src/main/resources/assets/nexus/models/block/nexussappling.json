@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "nexus:block/birch_sapling-modified",
+    "particle": "nexus:block/birch_sapling-modified"
+  },
+  "render_type": "translucent"
+}

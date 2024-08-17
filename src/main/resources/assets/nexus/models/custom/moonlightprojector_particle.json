@@ -1,0 +1,6 @@
+{
+  "parent": "nexus:displaysettings/moon_light_projector.item",
+  "textures": {
+    "particle": "nexus:block/jm"
+  }
+}

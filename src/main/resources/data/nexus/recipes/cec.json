@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nexus:electrolyzedblock"
+    },
+    {
+      "item": "nexus:electrolyzedblock"
+    },
+    {
+      "item": "nexus:electrolyzedblock"
+    },
+    {
+      "item": "nexus:electrolyzedblock"
+    }
+  ],
+  "result": {
+    "item": "nexus:electrolyzedcraftingtable",
+    "count": 1
+  }
+}

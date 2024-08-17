@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "nexus:nexuscore"
+    },
+    "b": {
+      "item": "nexus:electrolyzedblock"
+    },
+    "c": {
+      "item": "nexus:electrolyzedcraftingtable"
+    },
+    "d": {
+      "item": "nexus:electrolyzedpillar"
+    }
+  },
+  "result": {
+    "item": "nexus:moonlightprojector",
+    "count": 1
+  }
+}

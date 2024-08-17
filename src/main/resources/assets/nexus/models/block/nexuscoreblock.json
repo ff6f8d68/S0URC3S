@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "nexus:block/the_actual_redstone_heart-modified",
+    "particle": "nexus:block/the_actual_redstone_heart-modified"
+  },
+  "render_type": "solid"
+}

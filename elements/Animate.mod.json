@@ -1,0 +1,9 @@
+{
+  "_fv": 60,
+  "_type": "function",
+  "definition": {
+    "code": "#Particles Generated with: Cloud Wolf's Particle Grapher\nscoreboard objectives add cw_particleplot dummy\nfunction nexus:l1/l1_0\nscoreboard players add @s cw_particleplot 1\nexecute if score @s cw_particleplot matches 10.. run scoreboard players set @s cw_particleplot 0",
+    "name": "animate",
+    "namespace": "mod"
+  }
+}

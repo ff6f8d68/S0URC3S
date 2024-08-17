@@ -1,0 +1,103 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_admin_login",
+          "text": {
+            "fixedValue": "admin login"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 185,
+          "y": 43
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "ac",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 106
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_username",
+          "text": {
+            "fixedValue": "acces code:"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 188,
+          "y": 93
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_login",
+          "text": "login",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Login"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 188,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_error",
+          "text": {
+            "fixedValue": "",
+            "name": "Error"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 187
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rgt.png",
+          "use1Xscale": false,
+          "x": 126,
+          "y": 37
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 60,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Corrupdet code",
+    "splashName": "Splash Potion of Corrupdet code",
+    "lingeringName": "Lingering Potion of Corrupdet code",
+    "arrowName": "Arrow of Corrupdet code",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Corruptedc"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

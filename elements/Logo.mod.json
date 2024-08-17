@@ -1,0 +1,11 @@
+{
+  "_fv": 60,
+  "_type": "painting",
+  "definition": {
+    "texture": "mojang_alpha.png",
+    "width": 32,
+    "height": 16,
+    "title": "Logo",
+    "author": "<unknown>"
+  }
+}

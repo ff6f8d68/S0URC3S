@@ -1,0 +1,6 @@
+{
+  "parent": "nexus:displaysettings/shard.item",
+  "textures": {
+    "layer0": "nexus:item/rift"
+  }
+}

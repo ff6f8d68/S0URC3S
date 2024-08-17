@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nexus:block/monitor"
+    },
+    "facing=east": {
+      "model": "nexus:block/monitor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nexus:block/monitor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nexus:block/monitor",
+      "y": 270
+    }
+  }
+}

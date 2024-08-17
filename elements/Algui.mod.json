@@ -1,0 +1,159 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_admin_login",
+          "text": {
+            "fixedValue": "admin login"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 185,
+          "y": 43
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "un",
+          "width": 120,
+          "height": 20,
+          "x": 156,
+          "y": 77
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_username",
+          "text": {
+            "fixedValue": "username:"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 191,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_password",
+          "text": {
+            "fixedValue": "password:"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 191,
+          "y": 105
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "pw",
+          "width": 120,
+          "height": 20,
+          "x": 156,
+          "y": 119
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_login",
+          "text": "login",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Login"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 188,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_error",
+          "text": {
+            "fixedValue": "",
+            "name": "Error"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 187
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rgt.png",
+          "use1Xscale": false,
+          "x": 126,
+          "y": 37
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_login_via_acces_code",
+          "text": "login via acces code",
+          "isUndecorated": true,
+          "onClick": {
+            "name": "Fgfasd"
+          },
+          "width": 129,
+          "height": 20,
+          "x": 154,
+          "y": 175
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_dont_know_your_login_details",
+          "text": {
+            "fixedValue": "dont know your login details?"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 140,
+          "y": 164
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

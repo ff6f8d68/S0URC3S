@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "nexus:electrolyzedblock"
+    }
+  },
+  "result": {
+    "item": "nexus:electrolyzedpillar",
+    "count": 3
+  }
+}

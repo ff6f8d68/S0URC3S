@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_fence",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NEXUS_treePlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:NEXUS_treePlanks"
+      },
+      {
+        "value": "CUSTOM:NEXUS_treePlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:NEXUS_treePlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NEXUS_treeFence"
+    },
+    "name": "nexus_tree_fence_recipe",
+    "namespace": "mod"
+  }
+}

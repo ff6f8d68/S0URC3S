@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "nexus:nexus_tree_log"
+    }
+  ],
+  "result": {
+    "item": "nexus:nexus_tree_planks",
+    "count": 4
+  }
+}

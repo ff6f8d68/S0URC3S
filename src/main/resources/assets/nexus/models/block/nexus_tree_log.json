@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nexus:block/nexus_tree_log_top",
+    "up": "nexus:block/nexus_tree_log_top",
+    "north": "nexus:block/nexus_tree_log_side",
+    "east": "nexus:block/nexus_tree_log_side",
+    "south": "nexus:block/nexus_tree_log_side",
+    "west": "nexus:block/nexus_tree_log_side",
+    "particle": "nexus:block/nexus_tree_log_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "nexus:custom/info_fetcher_model",
+  "textures": {
+    "0": "nexus:block/ifmt",
+    "particle": "nexus:item/nexustabicon"
+  }
+}

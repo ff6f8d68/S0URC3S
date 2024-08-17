@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "nexus:block/nexus_tree_pressure_plate"
+    },
+    "powered=true": {
+      "model": "nexus:block/nexus_tree_pressure_plate_down"
+    }
+  }
+}

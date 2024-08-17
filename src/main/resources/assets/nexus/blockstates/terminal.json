@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nexus:block/terminal"
+    },
+    "facing=east": {
+      "model": "nexus:block/terminal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nexus:block/terminal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nexus:block/terminal",
+      "y": 270
+    }
+  }
+}

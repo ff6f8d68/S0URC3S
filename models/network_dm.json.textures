@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "network_dm_t"
+      },
+      "name": "default"
+    }
+  }
+}

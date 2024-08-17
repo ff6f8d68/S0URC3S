@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nexus:block/very_dark_oak_slab"
+    },
+    "type=top": {
+      "model": "nexus:block/very_dark_oak_slab_top"
+    },
+    "type=double": {
+      "model": "nexus:block/very_dark_oak_slab_full"
+    }
+  }
+}

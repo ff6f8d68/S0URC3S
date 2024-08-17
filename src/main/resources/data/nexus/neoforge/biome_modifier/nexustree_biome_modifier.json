@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "nexus:nexushub",
+  "features": "nexus:nexustree",
+  "step": "surface_structures"
+}
